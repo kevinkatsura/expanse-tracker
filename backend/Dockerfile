@@ -22,5 +22,5 @@ RUN npm install --omit=dev
 COPY --from=builder /app/dist ./dist
 # COPY .env .env
 
-# EXPOSE 5555
+# EXPOSE 5556
 CMD ["npm", "run", "start"]
