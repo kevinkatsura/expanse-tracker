@@ -53,5 +53,5 @@ git clone https://github.com/username/huawei-technical-test-I.git
 cd huawei-technical-test-I/automation-testing
 mkdir -p ./output/home/cron
 chmod +x run.sh && ./run.sh
-chmod +x stop.sh && ./stop.sh
+chmod +x stop.sh && ./stop.sh (stop the docker container and delete image after testing)
 ```
