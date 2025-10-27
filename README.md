@@ -4,7 +4,7 @@
 
 This repository contains three submodules demonstrating different technical tasks:
 
-1. **[Pengembangan Backend](./pengembangan-backend)** – A simple Expense Tracking API using Node.js, Express.js, and MongoDB, fully containerized.  
+1. **[Pengembangan Backend](./pengembangan-backend)** – A simple Expense Tracking API using Node.js, Express.js, Swagger OpenAPI, and MongoDB, fully containerized.  
 2. **[Automation Testing](./automation-testing)** – Automates data collection and cleansing using cron jobs inside a Docker container.  
 3. **[Data Processing](./data-processing)** – Executes SQL queries for employee data management and analysis in a Dockerized database environment.  
 
