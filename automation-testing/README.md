@@ -1,6 +1,4 @@
 # Automation Testing
-
-> Submodule of the [`huawei-technical-test-I`](https://github.com/username/huawei-technical-test-I) repository
 <details>
 <summary>Task Description</summary>
 Buatlah skrip otomatis cron tab/cron job untuk collect data dari resource tertentu dengan
