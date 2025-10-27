@@ -31,8 +31,6 @@ This submodule implements a simple **Node.js / Express server** to accept, store
 
 ## Installation & Setup
 
-### Step 1: Clone the Repository
-
 ```bash
 git clone https://github.com/username/huawei-technical-test-I.git
 cd huawei-technical-test-I/pengembangan-backend
