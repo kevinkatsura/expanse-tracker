@@ -52,6 +52,6 @@ No additional tools or dependencies are required on the host system.
 git clone https://github.com/username/huawei-technical-test-I.git
 cd huawei-technical-test-I/automation-testing
 mkdir -p ./output/home/cron
-./run.sh
-./stop.sh
+chmod +x run.sh && ./run.sh
+chmod +x stop.sh && ./stop.sh
 ```
