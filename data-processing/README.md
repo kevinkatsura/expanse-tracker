@@ -16,20 +16,25 @@ Tuliskan script code SQL query dengan ketentuan berikut :
 
 <details>
 <summary>1. Tambahkan satu personal dalam table dengan nama employee Albert dengan posisi enginner, join date 24 Januari 2024, dengan Year of experience 2.5 year. With salary $50.</summary>
+
 ```sql
 INSERT INTO employees (name, position, join_date, years_of_experience, salary) VALUES ('Albert', 'Engineer', '2024-01-24', 2.5, 50.00);
 ```
+
 </details>
 
 <details>
 <summary>2. Update table dengan posisi enginner with salaray $85</summary>
+
 ```sql
 UPDATE employees SET salary = 85.00, WHERE position = 'Engineer';
 ```
+
 </details>
 
 <details>
 <summary>3. Hitung total pengeluaran salary saat tahun 2021.</summary>
+
 ```sql
 SELECT 
     SUM(
@@ -43,19 +48,24 @@ SELECT
     ) AS total_salary_2021
 FROM employees;
 ```
+
 </details>
 
 <details>
 <summary>4. Sorting menampilkan 3 employee paling banyak yang memiliki Years of Experience</summary>
+
 ```sql
 SELECT name, position, years_of_experience, salary FROM employees ORDER BY years_of_experience DESC, salary DESC LIMIT 3;
 ```
+
 </details>
 
 <details>
 <summary>5. Tuliskan subquery untuk employee dengan posisi engginer yang memiliki exeperience kurang dari sama dengan 3 tahun</summary>
+
 ```sql
 SELECT * FROM employees WHERE position = 'Engineer' AND years_of_experience <= 3;
+
 ```
 </details>
 
