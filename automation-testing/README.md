@@ -1,4 +1,6 @@
 # Automation Testing
+**Important Note**: Since in MacOS (should be), we don't have enough freedom to work on `/home/cron`, I create the crontab csv output files in this folder with subfolder `./output/home/cron`. Actually, in the docker filesystem, the cron results are still stored in `/home/cron`. However, in the host fs (MacOS), I binded it to `./output/home/cron`. Sorry for the inconvenience in advance.
+
 <details>
 <summary>Task Description</summary>
 Buatlah skrip otomatis cron tab/cron job untuk collect data dari resource tertentu dengan
