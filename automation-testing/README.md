@@ -46,8 +46,6 @@ No additional tools or dependencies are required on the host system.
 
 ## Installation & Setup
 
-### Step 1: Clone the Main Repository
-
 ```bash
 git clone https://github.com/username/huawei-technical-test-I.git
 cd huawei-technical-test-I/automation-testing
